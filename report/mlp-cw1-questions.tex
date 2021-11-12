@@ -1,5 +1,5 @@
 %% REPLACE sXXXXXXX with your student number
-\def\studentNumber{sXXXXXXX}
+\def\studentNumber{s1720422}
 
 
 %% START of YOUR ANSWERS
@@ -24,7 +24,10 @@
 
 %% Question 1:
 \newcommand{\questionOne} {
-\youranswer{Question 1 - Define overfitting}
+\youranswer{when a network function is too closely fit to a training
+set, and results in an increasing validaiton set error despite a
+monotonically decreasing training error(an illustration
+ of this concept is shown in figure 1b).}
 }
 
 %% Question 2:
@@ -44,17 +47,59 @@
 
 %% Question 5:
 \newcommand{\questionFive} {
-\youranswer{Question 5 - Explain what overfitting is in detail and in your own words}
+\youranswer{it's validation error begins to increase despite it's training
+error decreasing monotonically. This leads to an increasing generealization
+gap as the model is trained over a number of epochs. It inidcates that
+the model is too flexible and doesn't fit to unseen data very well.}
 }
 
 %% Question 6:
 \newcommand{\questionSix} {
-\youranswer{Question 6 - Discuss ``why'' and ``how'' overfitting occurs, and ``how'' one can identify it is happening}
+\youranswer{Overfitting occurs due to a high variance being present within
+the trained model. This is due to the model becoming overly complex and
+fitting its degrees of freedom in such a way which closely resembles data
+points present in the training data. The parameters of the model learn 
+the detail and noise in the training data which results in a negative
+performance when it comes to the gnerealization of the model and its 
+ability to closely predict outputs on unseen data. Overfitting can occur
+for a number of reasons. If the learing rate of a model is increased too
+much, then it is likely that the parameters of the model will convege and resemble
+training data points very closely in a fewer number of epochs respectively. A
+clear way to identify if a model is overfit is by visualising the error of
+the model on a training and vaildation set across a fixed number of epochs. If 
+the validation error begins to increase despite a monotonically decreasing
+training error, the model is said to be overfitted. To generalize, if the Model
+performs well on a training set, but poorly on unssen data, it is overfitted. 
+  }
 }
 
 %% Question 7:
 \newcommand{\questionSeven} {
-\youranswer{Question 7 - Explain what these figures contain and how the curves evolve, and spot where overfitting occurs. Reason based on the min/max points and velocities (direction and magnitude of change) of the accuracy and error curves}
+\youranswer{it highlights the ratio of total EMNIST samples which were
+classified with their target labels correctly over a period of 100 epochs. the
+red and blue lines rpresent the accuracy obtained by the baseline model across
+the training and test set respectively. It cna be observed that the accuracy
+of predictions steeply increased up until epoch 5. Beyond which training accuracy
+continued to increase steeply in contrast to the validation accuracy which 
+increased at a slower rate and began to level off. At around epoch 16, it
+is clear that the model was no longer improving in validation accuracy due to a flat
+gradient in the validation accuracy curve. This indicates a maximum optimum
+accuracy of 82.5\% was achieved for the model at epoch 16 before it's performance
+began to decline. Figure 1b similarly illustrates epoch 16 as the point where
+the cross-entropy error measured on the validation set was at it's minimum of
+0.5, before it begian to increase. It can be deduced that beyond epoch 16,
+training accuracy continued to increase monotonically, whereas validation
+accuracy began to decline. A similar pattern can be observed for figure 1b
+where the error on the training set conintured to decrease beyond epoch 16,
+whereas it increased for the validatoin set. This led to an expanidng
+generalization gap. Hence, the baseline model became overfitted
+beyond epoch 16. By the end of epoch 100, it can be seeen that the accuracy
+across the validation set had fallen from 82.5\% to 80.5\%. Furthermore,
+the error across the validation set increased from a minimum of 0.5 to
+approximately 0.98. In contrast, by epoch 100, the training set was clearly
+fitted to the model due to the high training accuracy of 93.5\% and low
+error of 0.17.
+}
 }
 
 %% Question 8:
