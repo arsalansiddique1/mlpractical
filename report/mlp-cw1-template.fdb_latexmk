@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex mlp-cw1-template"] 1636710021 "mlp-cw1-template.aux" "mlp-cw1-template.bbl" "mlp-cw1-template" 1636711160
+["bibtex mlp-cw1-template"] 1636710021 "mlp-cw1-template.aux" "mlp-cw1-template.bbl" "mlp-cw1-template" 1636759608
   "./icml2017.bst" 1636687965 27014 3bf38cf1c3514ce2660b1751e86eb994 ""
   "mlp-cw1-template.aux" 1636711160 4622 59e7233b5b8c4fd97677d3deebc7c3bf "pdflatex"
   "refs.bib" 1636687965 1148 4976b30edf774a70b2cb032f02de7565 ""
   (generated)
   "mlp-cw1-template.blg"
   "mlp-cw1-template.bbl"
-["pdflatex"] 1636711160 "/afs/inf.ed.ac.uk/user/s17/s1720422/Documents/mlpractical/report/mlp-cw1-template.tex" "/afs/inf.ed.ac.uk/user/s17/s1720422/Documents/mlpractical/report/mlp-cw1-template.pdf" "mlp-cw1-template" 1636711160
+["pdflatex"] 1636711160 "/afs/inf.ed.ac.uk/user/s17/s1720422/Documents/mlpractical/report/mlp-cw1-template.tex" "/afs/inf.ed.ac.uk/user/s17/s1720422/Documents/mlpractical/report/mlp-cw1-template.pdf" "mlp-cw1-template" 1636759608
   "/afs/inf.ed.ac.uk/user/s17/s1720422/Documents/mlpractical/report/mlp-cw1-template.aux" 1636711160 4622 59e7233b5b8c4fd97677d3deebc7c3bf ""
   "/afs/inf.ed.ac.uk/user/s17/s1720422/Documents/mlpractical/report/mlp-cw1-template.tex" 1636687965 12376 009ff9e475b05915d7e9abf844bb6e77 ""
   "/etc/texmf/web2c/texmf.cnf" 1598443129 475 c0e671620eb5563b2130f56340a5fde8 ""
@@ -144,7 +144,7 @@
   "figures/empty_wd_plot.png" 1636687965 12205 dfce1d222a83faeeae4ba7e3ac7b44e3 ""
   "figures/example_accuracy.pdf" 1636687965 12702 bd8cc0ffe97f5f0a8725615a1de7d429 ""
   "figures/example_error.pdf" 1636687965 13656 7771c74c30c5271c1f265c98db586bc3 ""
-  "mlp-cw1-questions.tex" 1636711159 15816 8d05555f84193294fd5ec6aff2e636ae ""
+  "mlp-cw1-questions.tex" 1636759608 15816 8d05555f84193294fd5ec6aff2e636ae ""
   "mlp-cw1-template.aux" 1636711160 4622 59e7233b5b8c4fd97677d3deebc7c3bf "pdflatex"
   "mlp-cw1-template.bbl" 1636710021 1513 754a409265eda2d4cd15c2fb69777ea6 "bibtex mlp-cw1-template"
   "mlp-cw1-template.out" 1636711160 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
@@ -152,9 +152,9 @@
   "mlp2021.sty" 1636687965 24081 017e536e72638c28ba568b6183a9a716 ""
   "mlp2021_includes.tex" 1636687965 1268 26091e1941f29aa8679db6969fd1bff3 ""
   (generated)
-  "/afs/inf.ed.ac.uk/user/s17/s1720422/Documents/mlpractical/report/mlp-cw1-template.log"
-  "mlp-cw1-template.out"
   "mlp-cw1-template.pdf"
+  "/afs/inf.ed.ac.uk/user/s17/s1720422/Documents/mlpractical/report/mlp-cw1-template.log"
+  "mlp-cw1-template.aux"
   "mlp-cw1-template.log"
   "/afs/inf.ed.ac.uk/user/s17/s1720422/Documents/mlpractical/report/mlp-cw1-template.pdf"
-  "mlp-cw1-template.aux"
+  "mlp-cw1-template.out"
