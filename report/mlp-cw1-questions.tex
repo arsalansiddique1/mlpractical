@@ -104,7 +104,31 @@ error of 0.17.
 
 %% Question 8:
 \newcommand{\questionEight} {
-\youranswer{Question 8 - Explain your network width experiment results by using the relevant figure and table}
+\youranswer{as the number of hidden units is increased, this does lead to an
+imprvement in validation accuracy, as shown in table 1.
+The final validation accuracy increased from 78.5\% for 32
+units to 80.3\$ for 128 units. We observe that the highest final
+validation accuracy of 80.9\% was achieved using 64 hideen units. The reason
+why the 128  uint model was unable to outperform the 64 units model is due To
+overfititing.
+Figure 2a and 2b shows that overfitting of the 128 model is indicated
+by the rise in validation error(green line) beytond epoch 18, despite its's corresponding
+training error decreasing(yellow line). This led to the decrease in validation accuracy
+as shown in figure 2a for acccuraccies recorded beyond epoch 18.
+By the end of epoch 100, we can see that the 64 units mode perfromed
+almost identically to the 128 ubits model on the validation set.
+ The 128 units model had
+an advantage when it comes to how quickly the model converged and obtained lower
+validation error and higher validation accuracies. It acheived
+a maximum validation accuracy of approximately 82.5\% after epoch 18.
+It was also the fastest model to see a drastic improvment in validation accuracy.
+However due to overfitting, this afvantage didn't last too long. The 32 layer model 
+perfomred the worst on the validation set and obtained the lwoest accuracy across the board. This 
+is due to the model being underfit and not flexible enough to learn the parameters
+needed to fit the training data well. Despite this, it did obtain the lowest
+generalixation error of 0.15 so is the least likely model to result in
+overfiting. In contrast, the 128 unit model is the most likely to overfit
+due to a high geneeralization gap of 0.83.}
 }
 
 %% Question 9:
@@ -172,13 +196,13 @@ error of 0.17.
 \begin{figure}[t]
     \centering
     \begin{subfigure}{\linewidth}
-        \includegraphics[width=\linewidth]{figures/empty_acc_curve_width.png}
+        \includegraphics[width=\linewidth]{figures/task1_hu_accuracy.pdf}
         \caption{accuracy by epoch}
         \label{fig:width_acccurves}
     \end{subfigure} 
     \begin{subfigure}{\linewidth}
         \centering
-        \includegraphics[width=\linewidth]{figures/empty_error_curve_width.png}
+        \includegraphics[width=\linewidth]{figures/task1_hu_error.pdf}
         \caption{error by epoch}
         \label{fig:width_errorcurves}
     \end{subfigure} 
@@ -253,9 +277,9 @@ Question Table 1 - Fill in Table 1 with the results from your experiments varyin
     \toprule
         \# hidden units & val. acc. & generalization gap \\
     \midrule
-         32            &        78.5    &                    \\
-         64            &        80.9   &                    \\
-         128           &        80.3  &                    \\ 
+         32            &        78.5    &            0.15        \\
+         64            &        80.9   &             0.32       \\
+         128           &        80.3  &              0.83      \\ 
     \bottomrule
     \end{tabular}
     \caption{Validation accuracy (\%) and generalization gap (in terms of cross-entropy error) for varying network widths on the EMNIST dataset.}
