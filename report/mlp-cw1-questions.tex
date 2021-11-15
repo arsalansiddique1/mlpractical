@@ -133,7 +133,24 @@ due to a high geneeralization gap of 0.83.}
 
 %% Question 9:
 \newcommand{\questionNine} {
-\youranswer{Question 9 - Discuss whether varying width affects the results in a consistent way, and whether the results are expected and match well with the prior knowledge (by which we mean your expectations as are formed from the relevant Theory and literature)}
+\youranswer{Varying the width affects the results in a consistent way as
+expected. We expect the model to start off underfitted to the training data 
+when less units are used. This is because the model is less
+flexible due to having less free parameaters which can fit to to the data.
+This is represented well with the lowest validation accutacy 
+obtained in table 1 for the 32 units model.
+As we increase the number of units. we expect the model to fit the inpuit data
+better due to the model having increased flexibiliy. This is demonstrated 
+successfully due to the 64 units model having obtained the best final vaildation
+accuracy of all the models. Furthermore, we hypthesised that increasing the Model
+flexibility too much and having a number of free paramters close to the number
+of samples being trained on would result in overfitting due to each free parameters
+closely fitting each training point, hence creating noise. This is clerarly 
+demonstrated with the 128 units model in figure 2a where it's validation Accuracy
+began to decrease despiute the trianing accuracy increasing. It is also clear
+the model is overfit due to the increasing error generalization gap which had
+formed. 
+ }
 }
 
 %% Question 10:
