@@ -32,9 +32,7 @@ monotonically decreasing training error(an illustration
 
 %% Question 2:
 \newcommand{\questionTwo} {
-\youranswer{can lead to greater perfomrance on validation data,
-however also can result in poorer model gernealization due to an increased
-likelihood and rate of overfitting when the model is too flexible.}
+\youranswer{Question 2 - Summarise the effect increasing width and depth of the architecture had on overfitting}
 }
 
 %% Question 3:
@@ -162,54 +160,32 @@ each model increased as the model depth increased. This is primarily due to the
 model converging quicker within a fixed amount of epochs as there are
 more parameters being fitted to the training data. The consequence of 
 increaisng depth is an increased generalizxation error gap. This can be seen from
-the spread between the orange and green lines in figure 3a for the model of depth
-3. It means although the final validation accuracy increases as depth increases,
+the spread between the orange and green lines in figure 3a for the model of depth3
+3. It mneans although the final validation accuracy increases, as depth increases,
 the amount the model is overift by increases too hence causes the model to generalize
 worse on unseen data. From figure 3b, we can see that the model of depth 1 has
 the smallest generalization gap, whereas the model of depth 3 has the largest.
 Furthermore, we can observe the effect of increasing depth to be marignal when
-it comes to validation accuracy. This can be explained by the model of depth 1
-having a similar final
+it comes to validation accuracy. This can be explained by the model of depth 1 hving
+d a similar final
 validation accurtacy of 81.2\% compared to the model of depth 2 and 3 which 
-had accuraccies of 81.5\% and 82.0\% respectively. Therefore, from figure 3a and
-3b we can conclude that increasing model complexity by increasing the depth
+had accuraccies of 81.5\% and 82.0\% respectively. Therefore from figure 3a and
+3b, we can conclude that increasing model complexity by increasing the depth
 is counter-intuitive to imporving the generalization and validation accuracy of
 the model. The model genrealizes better with a depth of 1, comparted to depth of
-2 and 3. The validation acuttacy gain of using greater depths are marginal and
+2 and 3. The validation acuttacy gain of using greater depths is marginal and
 makes for a worse generalized model.
 }
 }
 
 %% Question 11:
 \newcommand{\questionEleven} {
-\youranswer{Vartying depth affects the reuslts in a consistent way as it
-increases the amount the model is overfited by. From the previous experiment,
-we couild see that using 128 hidden units for a single layer model already
-caused the model to become overfitted. By using 128 hidden units per layer, the
-model had twice and thrice the amount of parameters to fit to the input data
-for depths of 2 and 3 respectively. Therefore, the generalization gap increased 
-in proportion to this. The results reflect what is expected as there are a lot
-more parameters being fitted to the training data, hence there will be more noise
-in the resulting function of the model. This is due to the number of paramters fitted
-far exceeding the number of samples being used to train the model on.    )}
+\youranswer{Question 11 - Discuss whether varying depth affects the results in a consistent way, and whether the results are expected and match well with the prior knowledge (by which we mean your expectations as are formed from the relevant Theory and literature)}
 }
 
 %% Question 12:
 \newcommand{\questionTwelve} {
-\youranswer{From the conducted experiments it can be observed that increaisng
-the width and depth of the model both reuslted in improved performance. The
-final accuracy on unseen data improved when the model complexity was increased
-by varying the width and depth. However, it can also be observed that
-increases in these parameters can increase the likelihood and rate of
-how quickly the model overfits to the training data. This is primarily due To
-the increase in model complexity causing the model to overfit to noise in
-the training data. As observed, there is a point where increasing model depth
-results in marginal gains in perfomrance on unssen data, but reults in poorer
- model generalization. Thus, to prevent overiftting, a compromise
-between width and depth needs to be reached to acheive an ideal balance between
-model performance and generalization.
-
-}
+\youranswer{Question 12 - Compare and discuss how varying width and height changes the performance and overfitting in your experiments}
 }
 
 %% Question 13:
