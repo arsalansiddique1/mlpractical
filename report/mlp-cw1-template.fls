@@ -304,15 +304,15 @@ INPUT /afs/inf.ed.ac.uk/user/s17/s1720422/Documents/mlpractical/report/figures/e
 INPUT /usr/share/texlive/texmf-dist/tex/latex/duckuments/example-image-duck.pdf
 INPUT /usr/share/texlive/texmf-dist/tex/latex/duckuments/example-image-duck.pdf
 INPUT /usr/share/texlive/texmf-dist/tex/latex/duckuments/example-image-duck.pdf
+INPUT /afs/inf.ed.ac.uk/user/s17/s1720422/Documents/mlpractical/report/mlp-cw1-template.bbl
+INPUT /afs/inf.ed.ac.uk/user/s17/s1720422/Documents/mlpractical/report/mlp-cw1-template.bbl
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/t1xbi.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxptmbi.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxbi.tfm
-INPUT /afs/inf.ed.ac.uk/user/s17/s1720422/Documents/mlpractical/report/mlp-cw1-template.bbl
-INPUT /afs/inf.ed.ac.uk/user/s17/s1720422/Documents/mlpractical/report/mlp-cw1-template.bbl
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/t1xi.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxptmri.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxi.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/t1xi.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxptmri.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxi.tfm
 INPUT /afs/inf.ed.ac.uk/user/s17/s1720422/Documents/mlpractical/report/mlp-cw1-template.aux
 INPUT /afs/inf.ed.ac.uk/user/s17/s1720422/Documents/mlpractical/report/mlp-cw1-template.out
@@ -321,6 +321,7 @@ INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb

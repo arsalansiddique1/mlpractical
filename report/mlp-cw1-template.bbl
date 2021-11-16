@@ -1,4 +1,4 @@
-\begin{thebibliography}{4}
+\begin{thebibliography}{5}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -26,6 +26,12 @@ Ng, Andrew~Y.
   invariance.
 \newblock In \emph{Proceedings of the twenty-first international conference on
   Machine learning}, pp.\ ~78, 2004.
+
+\bibitem[Nielson(2015)]{NNandDL2015}
+Nielson, Michael~A.
+\newblock \emph{Neural Networks snd Deep Learning}.
+\newblock Determination Press, 2015.
+\newblock http://neuralnetworksanddeeplearning.com/.
 
 \bibitem[Srivastava et~al.(2014)Srivastava, Hinton, Krizhevsky, Sutskever, and
   Salakhutdinov]{srivastava2014dropout}

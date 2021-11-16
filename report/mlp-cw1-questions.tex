@@ -214,12 +214,90 @@ model performance and generalization.
 
 %% Question 13:
 \newcommand{\questionThirteen} {
-\youranswer{Question 13 - Explain L1/L2 weight penalties first in words and then with formulas. Explain how they are incorporated to training and what hyperparameter(s) they require}
+\youranswer{L1/l2 regularisation are methods used to penalise the flexibility
+a model has by scaling the models parameters such that it becomes
+less flecible.\newline L1 regualarization achieves this by adding a penalty term parameter to
+the error function being minimised when training a model. The penalty term added
+is dependent on the sum of the magnitude of weight parameters present within
+the model. Adding this penalty term reults in the model reducing small weights
+to 0 and retaining larger, more important
+wieghts that are fundamnetal for the model to generalize well, essentailly acting
+as a form of feature selection. L1 regularization can be expklained by the
+following equations:
+
+\begin{align}
+E^n = E_0 + \beta\sum_w \left\lvert w_i\right\rvert \
+\\\frac{\partial E^n}{\partial w_i} = \frac{\partial E_0}{\partial w_i} 
+    + \beta  sgn(w_i)\
+\end{align}
+
+$E^0$ represents the unregularized error function which is added to the 
+sum of the magnitude of all weights present in the model, scaled by a
+fixed coeefficent $\beta$. The scaling factor is chosen manually beforehand
+and is resposnible for controlling the magnitude of regularization to the
+weights. The seocnd equation shows that the updated gradient of the regularized
+wrror function with respect to weights now includes a temr dependent on the 
+direction of the magnitude of weights. The new updated weight for the model
+will take this into account and move in a psoitve or negative direction
+proportional to the value of $\beta$.
+
+L2 regularization (commonly known as weight decay) works in a similar way To L1
+execpet that the penalty term added is dependent on the sum of the squared
+weights as opposed to the sum of the magnitude weights in it's L1 couunterpart.
+This reusxlts in the updated wights being dependent on the size of the weights.
+Therefore, the gradients shrink at a rate proportional to this. Thus, this means
+weightd are pusehjd to be as small as possible as long as the regularized cost 
+function continues to decrease. L2 regularization can be desicrbed by the
+following equations:
+
+\begin{align}
+E^n = E_0 + \frac{\beta}{2}\sum_w {w_i}^2
+\\\frac{\partial E^n}{\partial w_i} = \frac{\partial E_0}{\partial w_i} 
+     + \beta  w_i\
+\end{align}
+
+From the seocnd equation, we can see the updated wieght will now be dpendent on an 
+anditional term which has a value propoortional to the sixe of the current weight
+The regularization techinques are incorporated in trianing by ussing a chosen
+hyperparamter $/beta$ which will be incoroporated into the fomrulas above. The
+corresponding regularization fomula will then be computed on the ranodmly initialised weights for each chosen
+layer in the model. In order to update the gradient, backpropogation will be used
+in the same way as it is used to caluclate te gradient of the cost function with
+respect to the weights. The only differnce is that the corrsponing penalty
+gradient will be added on during the packrpopogation phase of training. In l2
+regularization, a bias penalty is often not used due to large bieas values 
+being potentially useful for the model as it allows for additional flexibility
+\cite{NNandDL2015}. Furthermore, having large biases does not make the neurons
+inputs sensitice in the same way weights do.
 }
+}
+
 
 %% Question 14:
 \newcommand{\questionFourteen} {
-\youranswer{Question 14 - Discuss how/why the weight penalties may address overfitting, discuss how L1 and L2 regularization differ and support your claims with references where possible}
+\youranswer{The weigth pentaltes help to address overfitting as it reduces the 
+flexibility and sensitivity of the model by making the weights smaller. This in turn means The
+model is less likelly to fit to noise within the training data. Large values
+will be multiplied by small weight vectors so the output reuslt is less likely
+to deviate far from the target label. If no regularization was used, ther weights
+are unbounded and are free to diverge and become very large which leads to The
+free parameters being prone to fitting to noise. Rgularization almost acts as a form of
+smoothing for the trained parameters and prevents them from becoming too large
+which would amke the model sensitive to small changes in the inpuit. Regualrization
+helps to keep the model simpler and gices it a chance to learn patterns commonly
+present within the trianing data, hence leads to better generalization.\newline
+    
+The main differnce between L1 and L2 are higihlighted by thier gradient terms.
+In L1 regualrization it can be seen that weights will always be updated at a
+constant rate with the only vairation being the direction in which the gradient
+is updated. With L2 regularization, the weights will be updated at
+changing rates due to the updated gradient being reliant on thr size of the current
+weights. As mentioned in \cite{NNandDL2015}, the main differneces bettwen both
+types of regularizations are the weights that are targetted. For a model with 
+large weights, L11 will shrink the weights slower than L2 due to L2's shrink
+factor being larger than L1's. For a model containing smaller weights, L2 will shirnk
+a lot slower than L1. With L1, small weights are shrunk to 0, whilst a small
+number of high importance weight neurons are retained. }
 }
 
 %% Question 15:
