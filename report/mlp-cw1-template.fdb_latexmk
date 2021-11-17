@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex mlp-cw1-template"] 1637041393 "mlp-cw1-template.aux" "mlp-cw1-template.bbl" "mlp-cw1-template" 1637121556
+["bibtex mlp-cw1-template"] 1637041393 "mlp-cw1-template.aux" "mlp-cw1-template.bbl" "mlp-cw1-template" 1637139087
   "./icml2017.bst" 1637065873 27014 3bf38cf1c3514ce2660b1751e86eb994 ""
-  "mlp-cw1-template.aux" 1637111648 4716 f5c82e076c9f8df85dd7835a9b465884 "pdflatex"
+  "mlp-cw1-template.aux" 1637139086 4716 f5c82e076c9f8df85dd7835a9b465884 "pdflatex"
   "refs.bib" 1637065873 1358 135170b8a0d2c88e9ddeb36a968f289c ""
   (generated)
-  "mlp-cw1-template.bbl"
   "mlp-cw1-template.blg"
-["pdflatex"] 1637111648 "/afs/inf.ed.ac.uk/user/s17/s1720422/Documents/mlpractical/report/mlp-cw1-template.tex" "/afs/inf.ed.ac.uk/user/s17/s1720422/Documents/mlpractical/report/mlp-cw1-template.pdf" "mlp-cw1-template" 1637121556
-  "/afs/inf.ed.ac.uk/user/s17/s1720422/Documents/mlpractical/report/mlp-cw1-template.aux" 1637111648 4716 f5c82e076c9f8df85dd7835a9b465884 ""
+  "mlp-cw1-template.bbl"
+["pdflatex"] 1637139086 "/afs/inf.ed.ac.uk/user/s17/s1720422/Documents/mlpractical/report/mlp-cw1-template.tex" "/afs/inf.ed.ac.uk/user/s17/s1720422/Documents/mlpractical/report/mlp-cw1-template.pdf" "mlp-cw1-template" 1637139087
+  "/afs/inf.ed.ac.uk/user/s17/s1720422/Documents/mlpractical/report/mlp-cw1-template.aux" 1637139086 4716 f5c82e076c9f8df85dd7835a9b465884 ""
   "/afs/inf.ed.ac.uk/user/s17/s1720422/Documents/mlpractical/report/mlp-cw1-template.tex" 1637065873 12376 009ff9e475b05915d7e9abf844bb6e77 ""
   "/etc/texmf/web2c/texmf.cnf" 1598443129 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -145,17 +145,17 @@
   "figures/task1_hu_error.pdf" 1637065873 17767 0a5f62e2673f95bdbfb9f33e648dc367 ""
   "figures/task1_vlayers_accuracy.pdf" 1637065873 18542 c0981287140777cd557fd46309f0a320 ""
   "figures/task1_vlayers_error.pdf" 1637065873 17677 8b38338d31b054664558c0e0c1bf2eb4 ""
-  "mlp-cw1-questions.tex" 1637121554 25788 f7a799d14af2aabe4f2342a91820c0c2 ""
-  "mlp-cw1-template.aux" 1637111648 4716 f5c82e076c9f8df85dd7835a9b465884 "pdflatex"
+  "mlp-cw1-questions.tex" 1637139084 25882 525fe5fda24ccf80c624bce1d58b4ba9 ""
+  "mlp-cw1-template.aux" 1637139086 4716 f5c82e076c9f8df85dd7835a9b465884 "pdflatex"
   "mlp-cw1-template.bbl" 1637065873 1713 3322a53bc30ded640680a4221d15a267 "bibtex mlp-cw1-template"
-  "mlp-cw1-template.out" 1637111648 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "mlp-cw1-template.out" 1637139086 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "mlp-cw1-template.tex" 1637065873 12376 009ff9e475b05915d7e9abf844bb6e77 ""
   "mlp2021.sty" 1637065873 24081 017e536e72638c28ba568b6183a9a716 ""
   "mlp2021_includes.tex" 1637065873 1268 26091e1941f29aa8679db6969fd1bff3 ""
   (generated)
-  "/afs/inf.ed.ac.uk/user/s17/s1720422/Documents/mlpractical/report/mlp-cw1-template.pdf"
-  "mlp-cw1-template.pdf"
-  "/afs/inf.ed.ac.uk/user/s17/s1720422/Documents/mlpractical/report/mlp-cw1-template.log"
   "mlp-cw1-template.log"
-  "mlp-cw1-template.out"
   "mlp-cw1-template.aux"
+  "/afs/inf.ed.ac.uk/user/s17/s1720422/Documents/mlpractical/report/mlp-cw1-template.log"
+  "mlp-cw1-template.pdf"
+  "/afs/inf.ed.ac.uk/user/s17/s1720422/Documents/mlpractical/report/mlp-cw1-template.pdf"
+  "mlp-cw1-template.out"
